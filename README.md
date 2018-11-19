@@ -9,7 +9,7 @@ When you reach the water, you win the game. Missing functionality is starting th
 
 ##Installation
 To run this application, download the GitHub zip file or clone the repository. Then open a browsser window and within it open the index.html fine in the directory of your application. You will see something like the following screenshot. After that, use the arrow keys to move the character. Your goal is to make the princess reach the water side (on the top) without getting hit by any of the rocks.
-((images/Capture.PNG)
+(images/Capture.PNG)
 
 Tools used in this game:
 `Object-Oriented JavaScript Scopes, The 'this' keyword Superclasses and subclasses HTML5 Canvas`
