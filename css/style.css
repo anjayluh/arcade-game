@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+
+.winner {
+    margin: 30px auto;
+    background: #88d5ec;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 20px;
+    background: #f7a4d7;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    font-family: 'Gloria Hallelujah', cursive;
+}
