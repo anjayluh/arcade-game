@@ -5,6 +5,7 @@ Arcade-game
 This is an implementation of Frogger game where user has to go through a lane avoiding the rocks. They win the game once they cross the lane without getting hit. I made this game as a project that is part of the Udacity Front-End Web Developer Nanodegree.
 
 ##How to play the game
+
 When you reach the water, you win the game. Missing functionality is starting the game over. If you run into an enemy rocks, you will die and the game will start over. The enemy rocks in this case rocks are running across the screen at random locations and random speeds. Use the arrow keys to move left, right, forward or backward. 
 
 ##Installation
