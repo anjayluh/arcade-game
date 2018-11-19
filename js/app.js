@@ -75,7 +75,11 @@ class Player {
                 this.state = true;
             }
         }
-
+        this.sleep(500)
+        if (this.state === true) {
+            player.reset();
+            player.state = false;
+        }
     }
 
     render() {
@@ -107,11 +111,14 @@ class Player {
     reset() {
         //Reset the player once they have reached the final line
         //x position
-        if (this.state === true) {
-            this.x = 101 * 2;
-            //y position
-            this.y = 83 * 5;
-            document.getElementById("winner").style.display = 'none';
+        location.reload();
+    }
+
+    sleep(millisecondsToWait) {
+        let now = new Date().getTime();
+        while (new Date().getTime() < now + millisecondsToWait) {
+            /* do nothing; this will exit once it reaches the time limit */
+            /* if you want you could do something and exit */
         }
     }
 }
@@ -147,7 +154,3 @@ document.addEventListener('keyup', function(e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
-
-// if (this.state === true) {
-//     player.reset();
-// }
