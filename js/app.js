@@ -75,7 +75,7 @@ class Player {
                 this.state = true;
             }
         }
-        this.sleep(500)
+        this.sleep(200)
         if (this.state === true) {
             player.reset();
             player.state = false;
